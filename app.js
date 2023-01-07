@@ -13,3 +13,10 @@ function addOne() {
 }
 
 document.getElementById("counter-button").addEventListener("click", addOne);
+
+function printWatermelon(event) {
+  document.getElementById("watermelon-text").innerHTML = event.target.value;
+}
+
+document.getElementById("watermelon-button").addEventListener("click", printWatermelon);
+
